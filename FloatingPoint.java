@@ -13,6 +13,9 @@ public class FloatingPoint {
 		        double x = in.nextDouble();
 		        System.out.print("Input floating-point another number: ");
 		        double y = in.nextDouble();
+			  x=(float)(Math.round(x*Math.pow(10,3))/Math.pow(10,3));
+                          y=(float)(Math.round(y*Math.pow(10,3))/Math.pow(10,3));
+					
 
 		        if (x == y)
 		        {
